@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Review;
 use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -22,7 +23,11 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->word,
+            'detail' => $this->faker->paragraph,
+            'price' => $this->faker->numberBetween(100, 5000),
+            'stock' => $this->faker->randomDigit,
+            'discount' => $this->faker->numberBetween(2, 40)
         ];
     }
 }
