@@ -3,6 +3,7 @@ Ecommerce Restful API
 
 # routes
  GET|HEAD|/||Closure|web|
+
 |POST|api/products|products.store|App\Http\Controllers\ProductController@store|api,auth:api|
 |GET|HEAD|api/products|products.index|App\Http\Controllers\ProductController@index|api|
 |GET|HEAD|api/products/{product}|products.show|App\Http\Controllers\ProductController@show|api|
