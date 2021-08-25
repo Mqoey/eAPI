@@ -14,10 +14,10 @@ use Symfony\Component\HttpFoundation\Response;
 class ProductController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth:api')->except('index','show');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth:api')->except('index','show');
+    // }
     /**
      * Display a listing of the resource.
      *
@@ -26,6 +26,14 @@ class ProductController extends Controller
     public function index()
     {
         return ProductCollection::collection(Product::paginate(20));
+    }
+
+    public function products_index()
+    {
+        // dd('mq');
+        return view('admin.products.products')
+        ->with('products', Product::all())
+        ;
     }
 
     /**
