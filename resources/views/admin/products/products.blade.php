@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title> Categories </title>
+    <title> Products </title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="assets/js/loader.js"></script>
@@ -226,7 +226,7 @@
             </div>
             <div class="footer-wrapper">
                 <div class="footer-section f-section-1">
-                    <p class="">Copyright © 2021 <a target="_blank" href="https://mqographics.co.zw">DesignReset</a>, All
+                    <p class="">Copyright © 2021 <a target="_blank" href="https://designreset.com/">DesignReset</a>, All
                         rights reserved.</p>
                 </div>
                 <div class="footer-section f-section-2">

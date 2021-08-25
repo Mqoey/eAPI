@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Categories </title>
+    <title> Drivers </title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
                                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                                 <line x1="12" y1="5" x2="12" y2="19"></line>
                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg> Add Category</button>
+                            </svg> Add Driver</button>
 
                             <div class="form-row CompanyResponse">
                             </div>
@@ -110,22 +110,20 @@
                             <table id="default-ordering" class="table table-hover" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>Id</th>
                                         <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Products</th>
+                                        <th>Phone Number</th>
+                                        <th>Deliveries</th>
                                         <th class="dt-no-sorting text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
 
-                                    @foreach ($categories as $category)
+                                    @foreach ($drivers as $driver)
 
                                         <tr>
-                                            <td> {{ $category->id }} </td>
-                                            <td> {{ $category->name }} </td>
-                                            <td> {{ $category->description }} </td>
-                                            <td class=""><button class="btn btn-primary btn-sm"> Products </button> </td>
+                                            <td> {{ $driver->name }} </td>
+                                            <td> {{ $driver->phone_number }} </td>
+                                            <td> {{ $driver->deliveries }} </td>
                                             <td class="text-center">
                                                 <div class="">
                                                     <a href="">
@@ -161,10 +159,9 @@
                                 </tbody>
                                 <tfoot>
                                     <tr>
-                                        <th>Id</th>
                                         <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Products</th>
+                                        <th>Phone Number</th>
+                                        <th>Deliveries</th>
                                         <th class="invisible"></th>
                                     </tr>
                                 </tfoot>
@@ -177,7 +174,7 @@
             </div>
             <div class="footer-wrapper">
                 <div class="footer-section f-section-1">
-                    <p class="">Copyright © 2021 <a target="_blank" href="https://mqographics.co.zw">DesignReset</a>, All
+                    <p class="">Copyright © 2021 <a target="_blank" href="https://designreset.com/">DesignReset</a>, All
                         rights reserved.</p>
                 </div>
                 <div class="footer-section f-section-2">

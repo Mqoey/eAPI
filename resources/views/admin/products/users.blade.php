@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Categories </title>
+    <title> Users </title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
                                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                                 <line x1="12" y1="5" x2="12" y2="19"></line>
                                 <line x1="5" y1="12" x2="19" y2="12"></line>
-                            </svg> Add Category</button>
+                            </svg> Add User Admin</button>
 
                             <div class="form-row CompanyResponse">
                             </div>
@@ -112,20 +112,18 @@
                                     <tr>
                                         <th>Id</th>
                                         <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Products</th>
+                                        <th>Email</th>
                                         <th class="dt-no-sorting text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
 
-                                    @foreach ($categories as $category)
+                                    @foreach ($users as $user)
 
                                         <tr>
-                                            <td> {{ $category->id }} </td>
-                                            <td> {{ $category->name }} </td>
-                                            <td> {{ $category->description }} </td>
-                                            <td class=""><button class="btn btn-primary btn-sm"> Products </button> </td>
+                                            <td> {{ $user->id }} </td>
+                                            <td> {{ $user->name }} </td>
+                                            <td> {{ $user->email }} </td>
                                             <td class="text-center">
                                                 <div class="">
                                                     <a href="">
@@ -163,8 +161,7 @@
                                     <tr>
                                         <th>Id</th>
                                         <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Products</th>
+                                        <th>Email</th>
                                         <th class="invisible"></th>
                                     </tr>
                                 </tfoot>
@@ -177,7 +174,7 @@
             </div>
             <div class="footer-wrapper">
                 <div class="footer-section f-section-1">
-                    <p class="">Copyright © 2021 <a target="_blank" href="https://mqographics.co.zw">DesignReset</a>, All
+                    <p class="">Copyright © 2021 <a target="_blank" href="https://designreset.com/">DesignReset</a>, All
                         rights reserved.</p>
                 </div>
                 <div class="footer-section f-section-2">
