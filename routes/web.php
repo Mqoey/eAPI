@@ -28,4 +28,5 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('/drivers', 'DriversController@admin_index');
     Route::get('/orders', 'OrdersController@admin_index');
     Route::get('/users', 'UsersController@admin_index');
+    Route::get('/customers', 'CustomersController@admin_index');
 });

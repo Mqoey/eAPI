@@ -131,7 +131,7 @@
             </div>
             <div class="footer-wrapper">
                 <div class="footer-section f-section-1">
-                    <p class="">Copyright © 2021 <a target="_blank" href="https://mqographics.co.zw">DesignReset</a>, All
+                    <p class="">Copyright © 2021 <a target="_blank" href="https://mqographics.co.zw">MqoGraphics</a>, All
                         rights reserved.</p>
                 </div>
                 <div class="footer-section f-section-2">
@@ -156,7 +156,8 @@
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    {{--  <script src="assets/js/app.js"></script>  --}}
+
 
     <script>
         $(document).ready(function() {
