@@ -1,0 +1,51 @@
+<ITEMS>
+    <ITEM>
+        <HH>1</HH>
+        <ITEMCODE>    1-16003-97   </ITEMCODE>
+        <ITEMNAME1>"WATER CONS REDS"</ITEMNAME1>
+        <ITEMNAME2>"WATER CONS REDS"</ITEMNAME2>
+        <QTY>1</QTY>
+        <PRICE>557.86</PRICE>
+        <AMT>557.86</AMT>
+        <TAX>0.00</TAX>
+        <TAXR>0.00</TAXR>
+    </ITEM>
+    <ITEM>
+        <HH>1</HH>
+        <ITEMCODE>    1-16003-97   </ITEMCODE>
+        <ITEMNAME1>"SEWER DOMESTIC REDS"</ITEMNAME1>
+        <ITEMNAME2>"SEWER DOMESTIC REDS"</ITEMNAME2>
+        <QTY>1</QTY>
+        <PRICE>500.00</PRICE>
+        <AMT>500.00</AMT>
+        <TAX>72.50</TAX>
+        <TAXR>0.145</TAXR>
+    </ITEM>
+    <ITEM>
+        <HH>1</HH>
+        <ITEMCODE>    1-16003-97   </ITEMCODE>
+        <ITEMNAME1>"PUBLIC LIGHTING REDS"</ITEMNAME1>
+        <ITEMNAME2>"PUBLIC LIGHTING REDS"</ITEMNAME2>
+        <QTY>1</QTY>
+        <PRICE>142.14</PRICE>
+        <AMT>142.14</AMT>
+        <TAX>0.00</TAX>
+        <TAXR>0.00</TAXR>
+    </ITEM>
+</ITEMS>
+
+
+
+
+<CurrenciesReceived>
+    <Currency>
+        <Name>USD</Name>
+        <Amount>0.00</Amount>
+        <Rate>1</Rate>
+    </Currency>
+    <Currency>
+        <Name>ZWL</Name>
+        <Amount>1200.00</Amount>
+        <Rate>1</Rate>
+    </Currency>
+</CurrenciesReceived>
